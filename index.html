@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dino Abad — Student & Developer</title>
+  <meta name="description" content="Portfolio of Dino Abad, BSIT-3A student at NVSU and developer." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="netCanvas" aria-hidden="true"></canvas>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top">DA<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#prompts">Prompts</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="greeting">Hi, my name is</p>
+        <h1>Dino Abad.</h1>
+        <h2>I'm a student who loves to build.</h2>
+        <p class="intro">
+          I'm a BSIT student at NVSU (section 3A) and aspiring software developer. I
+          enjoy learning by building — from class assignments to personal
+          projects — and I'm always exploring new technologies.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View My Work</a>
+          <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile / About -->
+    <section class="section" id="profile">
+      <h2 class="section-title"><span>01.</span> Profile</h2>
+      <div class="profile-grid">
+        <div class="profile-photo" aria-hidden="true">
+          <div class="avatar">DA</div>
+        </div>
+        <div class="profile-body">
+          <p>
+            Hello! I'm Dino, a <strong>BSIT-3A</strong> student at <strong>NVSU</strong> currently building my
+            skills in software development. I started coding during my first
+            year of university and have been hooked ever since — I love the
+            moment when a tricky problem finally clicks.
+          </p>
+          <p>
+            As a BSIT-3A student, I'm learning <strong>full-stack web development</strong>
+            with <strong>JavaScript</strong>, <strong>React</strong>, and
+            <strong>Node.js</strong>, while sharpening my fundamentals in
+            data structures and algorithms through coursework and personal
+            projects.
+          </p>
+          <p>Here are a few quick facts about me:</p>
+          <ul class="facts">
+            <li>BS Information Technology (BSIT-3A) at NVSU</li>
+            <li>Self-taught in HTML, CSS, and JavaScript</li>
+            <li>Active in school coding clubs and hackathons</li>
+            <li>Currently learning React and Python</li>
+            <li>Weekend hobbyist: gaming, basketball, and coffee</li>
+          </ul>
+          <a class="link" href="#contact">Let's talk →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <h2 class="section-title"><span>02.</span> Skills</h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript / TypeScript</li>
+            <li>Python</li>
+            <li>Java (coursework)</li>
+            <li>SQL basics</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5 / CSS3</li>
+            <li>React (learning)</li>
+            <li>Responsive design</li>
+            <li>Git &amp; GitHub Pages</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js basics</li>
+            <li>REST API exercises</li>
+            <li>File &amp; SQL databases</li>
+            <li>Linux command line</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>Practices</h3>
+          <ul>
+            <li>Version control (Git)</li>
+            <li>Problem solving (DSA)</li>
+            <li>Pair programming</li>
+            <li>Agile basics from hackathons</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <h2 class="section-title"><span>03.</span> Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-head">
+            <h3>StudyPlanner</h3>
+            <div class="project-links">
+              <a href="#" aria-label="StudyPlanner source code">Code</a>
+              <a href="#" aria-label="StudyPlanner live demo">Demo</a>
+            </div>
+          </div>
+          <p>
+            A web app that helps students organize assignments and exams by
+            due date, with reminders and a weekly study schedule view.
+            Built for my software engineering class.
+          </p>
+          <ul class="tags">
+            <li>JavaScript</li><li>HTML/CSS</li><li>LocalStorage</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>Flashcard CLI</h3>
+            <div class="project-links">
+              <a href="#" aria-label="Flashcard CLI source code">Code</a>
+              <a href="#" aria-label="Flashcard CLI docs">Docs</a>
+            </div>
+          </div>
+          <p>
+            A command-line flashcard quiz tool for memorizing vocabulary and
+            formulas. Supports shuffled decks and tracks your score over time.
+          </p>
+          <ul class="tags">
+            <li>Python</li><li>CLI</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>Portfolio Site</h3>
+            <div class="project-links">
+              <a href="#" aria-label="Portfolio Site source code">Code</a>
+              <a href="#" aria-label="Portfolio Site live demo">Demo</a>
+            </div>
+          </div>
+          <p>
+            This site! A responsive, dependency-free portfolio built from
+            scratch with semantic HTML, modern CSS, and a little JavaScript.
+          </p>
+          <ul class="tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>DSA Notebook</h3>
+            <div class="project-links">
+              <a href="#" aria-label="DSA Notebook source code">Code</a>
+              <a href="#" aria-label="DSA Notebook docs">Docs</a>
+            </div>
+          </div>
+          <p>
+            My collection of data-structure and algorithm implementations with
+            explanations — arrays, trees, graphs, and sorting — written while
+            studying for technical interviews.
+          </p>
+          <ul class="tags">
+            <li>Java</li><li>Algorithms</li><li>Data Structures</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- Prompts -->
+    <section class="section" id="prompts">
+      <h2 class="section-title"><span>04.</span> Prompts</h2>
+      <p class="prompts-intro">
+        A collection of go-to prompts I use as a developer — copy them and
+        adapt them to your workflow.
+      </p>
+      <div class="prompts-grid">
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Explain code</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>Explain the following code step by step, including its purpose, inputs/outputs, edge cases, and any potential pitfalls. Then suggest one improvement.
+
+&lt;paste code&gt;</pre>
+        </article>
+
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Debug an error</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>Here is an error message and the relevant code. Identify the root cause, explain why it happens, and give the minimal fix plus a test that reproduces it.
+
+Error: &lt;error&gt;
+Code: &lt;code&gt;</pre>
+        </article>
+
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Write tests</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>Write unit tests for the following function using Jest. Cover the happy path, edge cases, and error handling. Use descriptive test names and avoid testing implementation details.
+
+&lt;paste function&gt;</pre>
+        </article>
+
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Refactor</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>Refactor this code for readability and maintainability without changing behavior. Explain each change and note any trade-offs.
+
+&lt;paste code&gt;</pre>
+        </article>
+
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Code review</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>Review this pull request diff. Flag bugs, security issues, performance problems, and missing tests. Rank findings by severity and suggest concrete fixes.
+
+&lt;paste diff&gt;</pre>
+        </article>
+
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Learn a concept</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>Teach me &lt;concept&gt; as a beginner. Start with a simple analogy, then a minimal example, then a common misconception, and finish with a short practice exercise.</pre>
+        </article>
+
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Optimize SQL</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>Here is a slow SQL query plus its EXPLAIN output. Diagnose why it is slow and rewrite it for performance. Explain what indexes would help.
+
+Query: &lt;query&gt;
+Plan: &lt;explain output&gt;</pre>
+        </article>
+
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Write docs</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>Write clear documentation for this function: a one-line summary, parameters with types, return value, side effects, and a usage example.
+
+&lt;paste function&gt;</pre>
+        </article>
+
+        <article class="prompt-card">
+          <div class="prompt-head">
+            <h3>Plan a feature</h3>
+            <button class="copy-btn" type="button">Copy</button>
+          </div>
+          <pre>I want to build &lt;feature&gt; in &lt;tech stack&gt;. Give me a step-by-step implementation plan: data model, API endpoints, UI components, edge cases, and a definition of done.</pre>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <h2 class="section-title"><span>05.</span> Contact</h2>
+      <p class="contact-text">
+        I'm currently a student open to internships, collaborations, and
+        friendly chats about tech. Whether you have a question or just want
+        to say hi, my inbox is always open.
+      </p>
+      <a class="btn btn-primary" href="mailto:dino.abad@example.com">Say Hello</a>
+      <div class="socials">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter / X</a>
+        <a href="#">Resume</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Designed &amp; built by Dino Abad · © <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="network.js"></script>
+</body>
+</html>

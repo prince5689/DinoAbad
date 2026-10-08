@@ -1,0 +1,28 @@
+Build me a single-page personal portfolio website for a programmer with these exact requirements:
+
+PROFILE
+- Name: Dino Abad
+- Student: BS Information Technology, section BSIT-3A at NVSU
+- Hero: "Hi, my name is Dino Abad. I'm a student who loves to build."
+- Profile section: avatar with initials, bio about being a BSIT-3A student at NVSU learning full-stack web development, and a quick-facts list (school, self-taught HTML/CSS/JS, coding clubs & hackathons, learning React and Python, hobbies)
+
+SECTIONS (in order, numbered 01–05)
+1. Profile — avatar + bio + quick facts
+2. Skills — 4 cards: Languages, Frontend, Backend, Practices
+3. Projects — 4 cards: StudyPlanner, Flashcard CLI, Portfolio Site, DSA Notebook (each with description, tech tags, Code/Demo links)
+4. Prompts — 9 copy-to-clipboard developer prompt cards: Explain code, Debug an error, Write tests, Refactor, Code review, Learn a concept, Optimize SQL, Write docs, Plan a feature
+5. Contact — internship-friendly message, email button, social links (GitHub, LinkedIn, Twitter/X, Resume)
+
+DESIGN — "network" theme
+- Dark space-navy background with an animated full-screen canvas of floating network nodes connected by cyan lines; cursor acts as a violet hub that links nearby nodes
+- Colors: bg #05070f, accent cyan #00e5ff, secondary violet #7c5cff, monospace font for headings/nav/buttons/tags
+- Glassmorphism cards (translucent, blurred, glowing borders on hover)
+- Glowing buttons with a gentle pulsing halo (3.5s ease-in-out)
+- Conic-gradient avatar ring that rotates continuously around the avatar
+- Gradient section dividers (cyan → violet → transparent, glowing, 3px)
+- Responsive with a mobile hamburger menu
+
+TECH
+- Pure HTML + CSS + vanilla JavaScript, no frameworks or dependencies
+- 4 files: index.html, styles.css, script.js (nav toggle, footer year, copy buttons), network.js (canvas animation)
+- Semantic HTML, accessibility labels, smooth scrolling
